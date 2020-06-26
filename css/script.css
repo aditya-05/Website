@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box;
+}
+.navbar{
+	background-color: #0D4F8B;
+}
+.navbar-brand > img{
+	width:100px;
+	padding-right:15px 
+}
+.navbar-brand>div>p:nth-child(1){
+	font-size:2rem;
+	margin-bottom:0px;
+}
+.navbar-brand>div>p:nth-child(2){
+	font-size:1rem;
+	margin-bottom:0px;
+}
+.navbar > .navbar-toggler{
+	border:1px solid rgba(255, 255, 255, 0.5);
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 1);
+  clear: left;
+}
+/*--------------End of Navbar----------------------------*/
+.row{
+	margin:0px;
+}
+/*--------------------Services--------------------------------*/
+#services{
+	margin-top: 15px;
+}
+#services > h2{
+	background-color:#CD0802;
+	text-align: center;
+	color:#fff;
+	margin:0px;
+	padding:10px 0px;
+}
+h4{
+	background-color:#0D4F8B ;
+	color:#fff;
+	text-align: center;
+	margin:0px;
+	padding:5px 0px;
+}
+#available-services,#hours-services,#other-services,#administrative-services
+{
+	padding:0px;
+}
+#unavailable-services{
+	font-weight: bold;
+	background-color: #0D4F8B;
+	color:#FF8C00;
+}
+ul{
+	margin:0px;
+}
+@media (min-width:768px)
+{
+	#hours-services,#administrative-services{
+		border-right:1px solid black;
+		border-left:1px solid black;
+	}
+	#available-services,#other-services{
+		border-left:1px solid black; 
+	}
+}
+@media(max-width: 767px)
+{
+	#services{
+		border:2px solid black
+	}
+}
+/*----------------------------------end of services---------------------------------*/
+/*--------------------------------Know your doctor------------------------------------------------*/
+#know-your-doc{
+margin-top: 15px;
+}
+#know-your-doc > h2{
+	background-color:#CD0802;
+	margin:0px;
+	text-align: center;
+	color:#fff;
+	padding:10px 0px;	
+}
+.doctor{
+	padding:0px;
+}
+.about-doctor
+{
+	padding:15px;
+}
+@media (min-width:768px)
+{
+	#know-your-doc{
+		border-bottom: 1px solid black;
+	}
+	#abha-boob{
+		border-right:1px solid black;
+		border-left:1px solid black;
+	}
+	#pankaj-boob{
+		border-left:1px solid black; 
+	}
+}
+@media(max-width: 767px)
+{
+	#know-your-doc{
+		border:2px solid black
+	}
+}
+/*-----------------------end of know your doctor--------------------*/
+/*---------------footer-------------------------------------------------*/
+footer{
+	background-color: #0D4F8B;
+	margin-top: 15px;
+	color:#fff;
+	font-size: 1.5rem;
+}
