@@ -27,6 +27,14 @@
 /*--------------End of Navbar----------------------------*/
 .row{
 	margin:0px;
+}/*
+.carousel-inner{
+	height: 700px;
+}*/
+.carousel-inner> div>img{
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 /*--------------------Services--------------------------------*/
 #services{
