@@ -49,6 +49,11 @@ h4{
 #available-services,#hours-services,#other-services,#administrative-services
 {
 	padding:0px;
+	
+}
+#services li
+{
+font-family:"Times New Roman", Times, serif;
 }
 #unavailable-services{
 	font-weight: bold;
@@ -58,6 +63,7 @@ h4{
 ul{
 	margin:0px;
 	padding-left:10px; 	
+	
 }
 @media (min-width:768px)
 {
@@ -89,10 +95,11 @@ margin-top: 15px;
 }
 .doctor{
 	padding:0px;
-}
+	}
 .about-doctor
 {
 	padding:10px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
 }
 @media (min-width:768px)
 {
