@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+	list-style: none;
 }
 .navbar{
 	background-color: #0D4F8B;
@@ -41,9 +42,9 @@
 h4{
 	background-color:#0D4F8B ;
 	color:#fff;
-	text-align: center;
+	/*text-align: center;*/
 	margin:0px;
-	padding:5px 0px;
+	padding:5px 10px;
 }
 #available-services,#hours-services,#other-services,#administrative-services
 {
@@ -56,21 +57,22 @@ h4{
 }
 ul{
 	margin:0px;
+	padding-left:10px; 	
 }
 @media (min-width:768px)
 {
-	#hours-services,#administrative-services{
+	#administrative-services{
 		border-right:1px solid black;
 		border-left:1px solid black;
 	}
-	#available-services,#other-services{
+	#hours-services,#available-services,#other-services{
 		border-left:1px solid black; 
 	}
 }
 @media(max-width: 767px)
 {
 	#services{
-		border:2px solid black
+		border:1px solid black
 	}
 }
 /*----------------------------------end of services---------------------------------*/
@@ -90,7 +92,7 @@ margin-top: 15px;
 }
 .about-doctor
 {
-	padding:15px;
+	padding:10px;
 }
 @media (min-width:768px)
 {
@@ -108,7 +110,7 @@ margin-top: 15px;
 @media(max-width: 767px)
 {
 	#know-your-doc{
-		border:2px solid black
+		border:1px solid black
 	}
 }
 /*-----------------------end of know your doctor--------------------*/
