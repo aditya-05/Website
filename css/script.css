@@ -64,7 +64,7 @@
 	height:400px;
 	}
 }
-@media(min-width:510px) and (max-width:589px)
+@media(min-width:511px) and (max-width:589px)
 {
 	.carousel-inner{
 	height:350px;
