@@ -27,15 +27,56 @@
 /*--------------End of Navbar----------------------------*/
 .row{
 	margin:0px;
-}/*
-.carousel-inner{
-	height: 700px;
-}*/
+}
+
 .carousel-inner> div>img{
-	align-items: center;
 	margin-left: auto;
 	margin-right: auto;
 }
+/*--------------------for the image gallery------------------------*/
+@media(min-width: 1000px)
+{
+	.carousel-inner{
+	height: 700px;
+	}
+}
+@media(min-width: 820px)and (max-width: 999px)
+{
+	.carousel-inner{
+	height:580px;
+	}
+}
+@media(min-width:720px) and (max-width: 819px)
+{
+	.carousel-inner{
+	height:500px;
+	}
+}
+@media(min-width:650px) and (max-width: 719px)
+{
+	.carousel-inner{
+	height:450px;
+	}
+}
+@media(min-width:590px) and (max-width: 649px)
+{
+	.carousel-inner{
+	height:400px;
+	}
+}
+@media(min-width:510px) and (max-width:589px)
+{
+	.carousel-inner{
+	height:350px;
+	}
+}
+@media(max-width: 510px)
+{
+	.carousel-inner{
+	height:300px;
+	}
+}
+
 /*--------------------Services--------------------------------*/
 #services{
 	margin-top: 15px;
@@ -83,6 +124,7 @@ ul{
 		border-left:1px solid black; 
 	}
 }
+
 @media(max-width: 767px)
 {
 	#services{
